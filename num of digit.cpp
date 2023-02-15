@@ -6,7 +6,7 @@ int main()
 	scanf("%d",&N);
 	while(N!=0)
 	{
-		r=N%10;
+		r = N % 10;
 		arr[i]=r;
 		i++;
 		N=N/10;
